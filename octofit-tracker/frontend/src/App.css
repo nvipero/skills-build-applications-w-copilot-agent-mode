@@ -1,0 +1,93 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9e6ff 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(56, 56, 56, 0.08);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffd60a !important;
+}
+
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+h1, h2, h3, .card-title {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #8338ec;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ff006e;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(56, 56, 56, 0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #ffd60a;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(56, 56, 56, 0.06);
+}
+.table thead {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f3fa;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #f9e6ff;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(56, 56, 56, 0.10);
+}
+
+.alert-info {
+  background: #e3f0ff;
+  color: #3a86ff;
+  border: none;
+}
+
+/* Favicon and logo spin for fun */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
